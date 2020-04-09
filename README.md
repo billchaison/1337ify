@@ -370,6 +370,7 @@ r=R
 s=s
 s=S
 s=5
+s=$
 t=t
 t=T
 u=u
