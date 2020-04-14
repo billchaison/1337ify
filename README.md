@@ -3,7 +3,7 @@ C program to generate leet speak wordlists from bare strings
 
 Takes strings from STDIN and converts them to leet speak for all permutations using a mapping file.
 
-Save the following source as `1337ify.c` and compile `gcc -o 1337ify 1337ify.c`<br />
+Save the following source as `1337ify.c` and compile `gcc -O3 -o 1337ify 1337ify.c`<br />
 ```c
 // benchmark:
 // echo "some_really_long_string" | 1337ify 1337ify.map.simple.txt | pv --line-mode --rate > /dev/null
